@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: "Lora", sans-serif;
+}
+.container{
+    width: 90vw;
+    max-width: 1700px;
+    margin: auto;
+}
+#header {
+    background: url(IMG/cisco.jpg) no-repeat fixed center;
+    color: white;
+    padding: .5rem 1.5rem 2rem;
+    text-align: center;
+    background-size: cover;
+    font-family: "Open Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header h1 {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    font-family: "Pacifico";
+    font-weight: lighter;
+}
+#header .logo{
+    width: 50px;
+}
+#header .logo img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.title h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+.title .writer {
+    font-weight: 100;
+    word-spacing: 0.1rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.title .writer img {
+    margin-left: auto;
+    border-radius: 50%;
+}
+section#form {
+    background-color: hsla(40, 40%, 85%, .5);
+    color: black;
+    padding: 50px;
+}
+
+#submit {
+    background-color: blue;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: .8rem;
+}
+
+.about {
+    background-color: hsl(30, 80%, 95%);
+    padding: 15px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.about em {
+    font-weight: bold;
+}
+
+.container section{
+    margin-bottom: 7vh;
+}
+#forms {
+    width: 32%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-style: solid;
+    border-color: #96D4D4;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+/* @media screen and (min-width: 640px) {
+    .container{width: 80vw;}
+} */
+@media screen and (min-width: 768px) {
+    .container{width: 75vw;}
+}
+@media screen and (min-width: 1440px) {
+    .container{width: 70vw;}
+}
+/* @media screen and (min-width: 640px) {
+    .container{width: 80vw;}
+} */
